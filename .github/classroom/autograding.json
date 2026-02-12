@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Example Case",
+      "setup": "javac src/ReverseInteger.java",
+      "run": "java -cp src ReverseInteger",
+      "input": "12345",
+      "output": "54321",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Palindrome Check",
+      "setup": "javac src/ReverseInteger.java",
+      "run": "java -cp src ReverseInteger",
+      "input": "121",
+      "output": "121",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Single Digit",
+      "setup": "javac src/ReverseInteger.java",
+      "run": "java -cp src ReverseInteger",
+      "input": "7",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Internal Zeros",
+      "setup": "javac src/ReverseInteger.java",
+      "run": "java -cp src ReverseInteger",
+      "input": "50051",
+      "output": "15005",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
